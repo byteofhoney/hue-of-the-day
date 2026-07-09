@@ -1,0 +1,24 @@
+<div class="container">
+  <header>
+    <h1>hue-of-the-day</h1>
+    <p>A daily color theme just for you.</p>
+  </header>
+
+  <div class="hue-card">
+    <div class="hue-preview" style="background: {{ hue_hex }};"></div>
+
+    <div class="hue-info">
+      <h2>Hue of the day</h2>
+      <p>Color: <span class="hue-code">{{ hue_hex }}</span></p>
+    </div>
+
+    <div class="actions">
+      <a class="btn primary" href="/next">Next hue</a>
+      <button class="btn" type="button">Save</button>
+    </div>
+  </div>
+
+  <footer>
+    Built with Python, Flask & MongoDB
+  </footer>
+</div>
